@@ -17,6 +17,9 @@ menu:
         - name: Research
           url: research/
           weight: 5 
+        - name: Presentations
+          url: presentations/
+          weight: 5
         #- name: Papers
         #  url: papers/
       #   weight: 2
@@ -116,7 +119,7 @@ params:
     label:
       text: "Michael Przystupa"
       icon: favicon.ico
-      iconHeight: 18
+      iconHeight: 32 
 
 markup:
     goldmark:
