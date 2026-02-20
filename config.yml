@@ -77,6 +77,8 @@ params:
             #  url: archive/
             - name: Research 
               url: research/
+            - name: Presentations
+              url: presentations/
             #- name: Blog
             #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
@@ -95,6 +97,8 @@ params:
           url: https://scholar.google.com/citations?user=UHWkDfkAAAAJ&hl=en 
         - name: GitHub
           url: https://github.com/Mi-Przystupa 
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/michael-przystupa-984816120/ 
         #- name: Substack
         #  url: https://pmichaillat.substack.com
         #- name: YouTube
