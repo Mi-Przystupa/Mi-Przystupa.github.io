@@ -39,10 +39,10 @@ Our work develops neural architectures with robot domain knowledge spanning spat
 ## Teleoperation (Chapter 3 & 4)
 
 
-##### Figure 3.1 : User teleoperating a 7-DOF robot using a 2D joystick with a data-driven spatial mapping interface.
 
 This work addresses the core challenge of limited-degree-of-freedom (DOF) teleoperation, where users — such as people with disabilities operating a wheelchair-mounted robotic arm — must control a high-DOF robot through a low-DOF interface like a 2D joystick. Rather than relying on traditional Cartesian mode-switching, which places significant cognitive burden on the user, we develop neural action maps that learn latent representations to re-map low-dimensional user inputs into task-relevant robot commands. A central contribution is the state-conditioned linear (SCL) architecture — a local-linear neural network that behaves linearly with respect to user inputs while using nonlinear state transformations, enforcing desirable properties like scalability, consistency, reversibility, and controllability. A later simplification of this system, DeepPCA, uses deep principal component analysis to derive these mappings more efficiently. Extensive user studies with 52 participants across multiple manipulation tasks empirically validated these systems, demonstrating significant improvements in task success rates and completion times over both prior deep learning approaches and conventional mode-switching baselines, while also providing a more interpretable framework for understanding human performance.
 
+##### Figure 3.1 : User teleoperating a 7-DOF robot using a 2D joystick with a data-driven spatial mapping interface.
 ![](user_study.png)
 
 
