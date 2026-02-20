@@ -48,7 +48,6 @@ This work addresses the core challenge of limited-degree-of-freedom (DOF) teleop
 
 ## Movement Primitives (Chapter 5)
 
-
 This chapter presents Deep Probabilistic Movement Primitives (DeepProMP), a novel learning-from-demonstration framework that extends classical Probabilistic Movement Primitives (ProMPs) using deep learning. Traditional ProMPs model distributions over robot trajectories using a linear-Gaussian framework, which limits them to uni-modal movement distributions and constrains their expressiveness on complex, multi-modal tasks. DeepProMP overcomes this by representing motion primitives as a latent variable distribution decoded by a neural network, trained with variational inference — capturing richer, multi-modal motion structure while retaining the key ProMP capabilities of conditioning on via-points and external variables to generalize to novel task configurations. By incorporating Bayesian aggregation into the neural network architecture, the model achieves greater robustness and data efficiency, performing well with fewer demonstrations on real robot hardware while offering significantly more flexibility in specifying movement goals than its linear predecessor.
 
 #### Figure 5.5: **Left**: Experimental setup of Make Mojito. **Right**: Demonstrated motion and learned cyclical behaviour. Results demonstrate that DeepProMPS can smoothly repeat cyclical motions indefinitely.
@@ -56,7 +55,6 @@ This chapter presents Deep Probabilistic Movement Primitives (DeepProMP), a nove
 
 
 ## Cross Embodiment Policy Transfer (Chapter 6)
-
 
 This chapter investigates morphology-aware policy transfer — the problem of learning control policies that generalize across robots with different physical bodies (morphologies), reducing the need to train from scratch on every new embodiment. The work frames this as a contextual Markov decision process where morphology information (e.g., limb connectivity, joint configurations) serves as context, allowing a single policy to reason across a distribution of robot designs. A key challenge is that while morphology-aware pretraining enables cross-embodiment generalization, it may sacrifice peak performance on any single target robot. To address this, the chapter explores Parameter-Efficient Fine-Tuning (PEFT) algorithms — borrowed from the large language model literature — as a compute-efficient means of adapting pretrained morphology-aware policies to specific target embodiments at deployment, where computational resources may be limited. The results provide empirical insight into which PEFT strategies best balance generalization and specialization in online reinforcement learning settings.
 
