@@ -63,8 +63,8 @@ params:
           title: Michael Przystupa
           subtitle: "I am a PhD Student with the University of Alberta"
           imageUrl: "michael.jpg"
-          imageWidth: 130
-          imageHeight: 170
+          imageWidth: 110
+          imageHeight: 150
           buttons:
             #- name: Papers
             #  url: papers/
