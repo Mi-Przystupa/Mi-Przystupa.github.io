@@ -62,9 +62,9 @@ params:
           enabled: true
           title: Michael Przystupa
           subtitle: "I am a PhD Student with the University of Alberta"
-          imageUrl: "michael_disney.jpg"
+          imageUrl: "michael.jpg"
           imageWidth: 130
-          imageHeight: 160
+          imageHeight: 170
           buttons:
             #- name: Papers
             #  url: papers/
