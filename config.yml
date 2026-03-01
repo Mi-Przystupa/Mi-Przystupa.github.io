@@ -82,7 +82,8 @@ params:
               url: research/
             - name: Presentations
               url: presentations/
-            #- name: Blog
+            - name: Blog
+              url: blog/
             #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
